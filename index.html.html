@@ -34,6 +34,21 @@
     footer { background:#020617; color:#e5e7eb; text-align:center; padding:20px; }
     footer p { margin:0; font-size:14px; }
 
+    /* WhatsApp Floating Button */
+    .whatsapp {
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:#25D366;
+      color:#fff;
+      padding:14px 18px;
+      border-radius:50px;
+      font-weight:600;
+      text-decoration:none;
+      box-shadow:0 8px 20px rgba(0,0,0,0.2);
+      z-index:999;
+    }
+
     @media(max-width:600px){
       .hero h2 { font-size:28px; }
     }
@@ -69,12 +84,12 @@
 <section id="products">
   <h2>Product Range</h2>
   <div class="grid">
-    <div class="card"><h3>Carbide Inserts</h3><p>Turning, milling and threading inserts for steel, stainless steel and cast iron.</p></div>
-    <div class="card"><h3>End Mills</h3><p>High-performance solid carbide end mills for roughing and finishing operations.</p></div>
-    <div class="card"><h3>Drills</h3><p>Indexable and solid carbide drills for accurate and stable hole making.</p></div>
-    <div class="card"><h3>U-Drills</h3><p>Cost-effective drilling solutions with replaceable inserts.</p></div>
-    <div class="card"><h3>Tool Holders</h3><p>BT, CAT and HSK tool holding systems for CNC machines.</p></div>
-    <div class="card"><h3>Accessories</h3><p>Screws, shims and spare parts to support continuous machining.</p></div>
+    <div class="card"><h3>Carbide Inserts</h3><p>CNMG, CCMT, DCMT, DNMG, SNMG, APMT, APKT, TNGG, WNMG</p></div>
+    <div class="card"><h3>End Mills</h3><p>Solid carbide end mills – 2F, 3F, 4F, corner radius & ball nose</p></div>
+    <div class="card"><h3>Drills</h3><p>Solid carbide drills, indexable drills, step drills</p></div>
+    <div class="card"><h3>U-Drills</h3><p>Indexable U-drills with replaceable inserts</p></div>
+    <div class="card"><h3>Tool Holders</h3><p>BT, SK, CAT, HSK tool holders & collets</p></div>
+    <div class="card"><h3>Accessories</h3><p>Screws, shims, spare parts & tooling accessories</p></div>
   </div>
 </section>
 
@@ -91,15 +106,28 @@
 <section id="contact">
   <h2>Contact Us</h2>
   <p><strong>Company:</strong> Hardturn Cutting Tools</p>
-  <p><strong>Business Location:</strong> Osaka, Japan</p>
-  <p><strong>Email:</strong> info@hardturntools.com</p>
-  <p><strong>Phone:</strong> +91-XXXXXXXXXX</p>
-  <p>Share your machining requirement and our team will assist you with the right tooling solution.</p>
+  <p><strong>Business Location:</strong> Ahmedabad, Gujarat, India</p>
+  <p><strong>Email:</strong> hardturncuttingtools@gmail.com</p>
+  <p><strong>Phone / WhatsApp:</strong> +91 97379 17181</p>
+
+  <h3>Send Your Requirement</h3>
+  <form action="https://formsubmit.co/hardturncuttingtools@gmail.com" method="POST" style="max-width:500px">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New Inquiry from Website">
+
+    <input type="text" name="name" placeholder="Your Name" required style="width:100%;padding:10px;margin-bottom:10px">
+    <input type="email" name="email" placeholder="Your Email" required style="width:100%;padding:10px;margin-bottom:10px">
+    <input type="text" name="phone" placeholder="Phone / WhatsApp Number" style="width:100%;padding:10px;margin-bottom:10px">
+    <textarea name="message" placeholder="Your Requirement" required style="width:100%;padding:10px;margin-bottom:10px"></textarea>
+    <button type="submit" class="btn">Submit Inquiry</button>
+  </form>
 </section>
 
 <footer>
   <p>© 2026 Hardturn Cutting Tools. All Rights Reserved.</p>
 </footer>
+
+<a class="whatsapp" href="https://wa.me/919737917181?text=Hello%20This%20is%20Hardturn%20Cutting%20Tools.%20We%20supply%20CNC%20and%20VMC%20cutting%20tools%20including%20carbide%20inserts%2C%20end%20mills%2C%20drills%20and%20U-drills.%20Please%20share%20your%20requirement%20for%20quotation." target="_blank">WhatsApp Us</a>
 
 </body>
 </html>
